@@ -1,13 +1,13 @@
 /*-------------------------------------
-    
+
   Author: Developer Wilson
   Copyright © 2021- 22
-  
+
 ---------------------------------------
-    
+
     CSS INDEX
     ===================
-  
+
     1. BODY
   2. CUSTOM CSS / A
   3. PRELOADER
@@ -193,9 +193,9 @@ label {
 }
 .cursor {
   background: #f6c60d;
-  -webkit-border-radius: 50%; 
-  -moz-border-radius: 50%; 
-  border-radius: 50%; 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
   display: block;
   position: fixed;
   margin-top: -10px;
@@ -303,9 +303,9 @@ label {
   color:#111;
   border:2px solid transparent;
   line-height:40px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-weight:600;
   text-transform:capitalize;
   z-index: 1;
@@ -370,9 +370,9 @@ label {
   color:#fff;
   border:2px solid transparent;
   line-height:40px;
-    -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+    -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-weight:500;
   text-transform:capitalize;
   z-index: 1;
@@ -674,7 +674,7 @@ label {
   font-size:24px;
   position:relative;
   top:3px;
-} 
+}
 .left-side-wrapper {
     background-color: #222;
     height: 100vh;
@@ -858,9 +858,9 @@ label {
   content: '';
     border: 2px solid #29abff;
     width: 45px;
-    -webkit-border-radius: 2px; 
-  -moz-border-radius: 2px; 
-  border-radius: 2px; 
+    -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
     position: absolute;
     left: 0px;
     top: 35px;
@@ -880,9 +880,9 @@ label {
   position: absolute;
   display:block;
   background-color: #fff;
-    -webkit-border-radius: 0; 
-  -moz-border-radius: 0; 
-  border-radius: 0; 
+    -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -moz-box-shadow: 0 6px 12px rgba(0,0,0,.100);
   -webkit-box-shadow:0 6px 12px rgba(0,0,0,.100);
   box-shadow: 0 6px 12px rgba(0,0,0,.100);
@@ -985,9 +985,9 @@ label {
   font-size:16px;
   border:2px solid transparent;
   line-height:40px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-weight:600;
   text-transform:capitalize;
   z-index: 1;
@@ -1051,9 +1051,9 @@ label {
   color:#151515;
   border:2px solid #ffffff;
   line-height:40px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-weight:600;
   text-transform:capitalize;
   z-index: 1;
@@ -1120,9 +1120,9 @@ label {
   border:0;
   color:#111;
   border:2px solid #fff;
-   -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+   -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   line-height:47px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -1141,9 +1141,9 @@ label {
   line-height:47px;
   text-align:center;
   border:2px solid #fff;
-   -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+   -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1274,8 +1274,8 @@ label {
   font-size:16px;
   color:#fff;
   margin-right:20px;
-   -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
+   -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   border-radius: 50px;
      -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
@@ -1283,7 +1283,6 @@ label {
     -moz-transition: all 0.6s;
     transition: all 0.6s;
 }
-.
 .about_btn a{
   width:150px;
   background:#dba622;
@@ -1296,13 +1295,13 @@ label {
   color:#fff;
   border:2px solid transparent;
   line-height:40px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-weight:600;
   text-transform:capitalize;
   z-index: 1;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.6s, color 0.6s;
      -webkit-transition: all 0.6s;
@@ -1405,9 +1404,9 @@ label {
   height:65px;
   line-height:65px;
   background:#bd4cec;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-size:24px;
   position:absolute;
   top:-40px;
@@ -1462,9 +1461,9 @@ label {
   text-align:center;
   display:inline-block;
   margin-top:8px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -1482,9 +1481,9 @@ label {
   line-height:27px;
     border: 2px solid #bd4cec;
     margin: 0px auto;
-   -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+   -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -1761,28 +1760,28 @@ label {
 }
 .calculator .field input#age {  width: 48px;}
 @media only screen and (max-width: 767px) {
-  .calculator .calculator .graph-area {  
+  .calculator .calculator .graph-area {
   width: 100% !important;
  }
 }
-.caluclator_text_wrapper{  
+.caluclator_text_wrapper{
   position: relative;
-  margin-bottom:40px; 
+  margin-bottom:40px;
   float:left;
-  width:100%; 
+  width:100%;
 }
-.caluclator_text_wrapper p { 
-   font-size: 18px;  
+.caluclator_text_wrapper p {
+   font-size: 18px;
    text-transform:capitalize;
-   color: #ffffff;  
-   font-weight: 500;    
+   color: #ffffff;
+   font-weight: 500;
    margin-bottom: 15px;
 }
 .dollar_wrap{
   border-bottom:1px solid #e2e2e2;
 }
-.caluclator_text_wrapper p i {  
-  color: #dba622;  
+.caluclator_text_wrapper p i {
+  color: #dba622;
   margin-left:5px;
   font-size:16px;
 }
@@ -1790,12 +1789,12 @@ label {
   display:none;
 }
 .dollar_wrap i{
-   color: #dba622 !important;  
+   color: #dba622 !important;
    font-size:30px !important;
    margin-left:0 !important;
    margin-right:10px !important;
 }
-.caluclator_text_wrapper input {  
+.caluclator_text_wrapper input {
   border: 0;
     font-size: 30px;
     border-radius: 0;
@@ -1843,23 +1842,23 @@ label {
   width:100%;
 }
 .caluclator_text_wrapper .btn{
-  margin-top:30px; 
+  margin-top:30px;
   padding: 12px 0;
   border-radius: 100px;
-  -moz-border-radius: 100px; 
+  -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   background-color: #63b9c9;
-  border-color: #63b9c9; 
-  color: #fff; 
+  border-color: #63b9c9;
+  color: #fff;
   font-weight: bold;
 }
 .calc{
   padding-left:100px;
 }
 .caluclator_text_wrapper .custom-select:focus{
-  outline: 0; 
+  outline: 0;
   box-shadow: none;
-} 
+}
 .calc_btn li a{
   width:180px;
   font-weight:500;
@@ -1964,7 +1963,7 @@ label {
 }
 .zero_btn a{
   border: 2px solid #fdf9f0ba !important;
-  
+
 }
 .zero_btn a:hover{
   background-color: #ffffff !important;
@@ -2168,7 +2167,7 @@ tr.no_boder {
 }
 .test-popup-link i:before{
   margin-left:0;
-  font-size:22px; 
+  font-size:22px;
 }
 @-webkit-keyframes pulse {
   to {
@@ -2646,8 +2645,8 @@ tr.no_boder {
   border: 1px solid #222222;
 }
 .blog_box_wrapper:hover .blog_date_wrapper p{
-   background: #dba622; 
-   color:#ff;f
+   background: #dba622;
+   color:#fff;
    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2670,7 +2669,7 @@ tr.no_boder {
 }
 .blog_img_wrapper img{
   width:100%;
-} 
+}
 .blog_date_wrapper p{
     width: 60px;
   padding-top:12px;
@@ -2771,7 +2770,7 @@ tr.no_boder {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  margin-bottom:20px;  
+  margin-bottom:20px;
 }
 #accordion .card_pagee h5 {
   font-size:16px;
@@ -2809,7 +2808,7 @@ tr.no_boder {
     right: 15px;
 }
 #accordion .card_pagee a.collapsed {
-   color: #fff; 
+   color: #fff;
     background-color: rgba(255, 255, 255, 0.1);
     display: block;
     padding: 14px 30px;
@@ -2827,7 +2826,7 @@ tr.no_boder {
   color:#fff;
 }
 #accordion .card_pagee a.collapsed:after {
-   color: #fff; 
+   color: #fff;
 }
 .faq_overlay{
   background: rgba(0, 0, 0, 0.9);
@@ -3254,8 +3253,8 @@ tr.no_boder {
   padding:7px 0 7px 0;
 }
 /***------sv about wrapper css --------***/
-.sv_about_wrapper{  
-  padding:100px 0px;  
+.sv_about_wrapper{
+  padding:100px 0px;
   background: #000000;
 }
 .sv_abt_content_wrapper{
@@ -3455,7 +3454,7 @@ tr.no_boder {
   height:auto;
   resize:none;
 }
-.contact_section input::placeholder, 
+.contact_section input::placeholder,
 .contact_section textarea::placeholder {
   color: #999;
 }
@@ -3590,7 +3589,7 @@ tr.no_boder {
   margin-bottom:40px;
 }
 .blog_category_box_wrapper:hover .blog_heaidng_top h3 a{
-   color: #f6c60d; 
+   color: #f6c60d;
 }
 .btc_blog_indx_date_wrapper a{
     width: 50px;
@@ -3670,7 +3669,7 @@ tr.no_boder {
   text-transform:uppercase;
   padding:25px;
   padding-top:10px;
-} 
+}
 .search_form i{
     position: absolute;
     z-index: 1;
@@ -3684,7 +3683,7 @@ tr.no_boder {
 }
 .blog_news_img_wrapper img{
   width:100%;
-} 
+}
 .lest_news_cont_wrapper{
   float:left;
   width:100%;
@@ -3693,7 +3692,7 @@ tr.no_boder {
 .blog_news_cnt_wrapper{
   border:none;
   padding-left:0;
-  padding-right:0;  
+  padding-right:0;
 }
 .lest_news_cont_wrapper h5 a{
   font-size:20px;
@@ -3740,9 +3739,9 @@ tr.no_boder {
   color:#fff;
     height: 45px;
     line-height: 45px;
-    background: #dba622; 
+    background: #dba622;
 }
-#blogoneSlider .carousel-control:focus, 
+#blogoneSlider .carousel-control:focus,
 #blogoneSlider .carousel-control:hover {
   background-color: #f6c60d;
   color: #111;
@@ -3812,7 +3811,7 @@ tr.no_boder {
   margin:0px auto;
   background:transparent;
   text-align:center;
-} 
+}
 .vedie_img img{
   width:auto;
 }
@@ -4097,7 +4096,7 @@ tr.no_boder {
   -webkit-transition: all 0.3s ease 0s;
    -moz-transition: all 0.3s ease 0s;
    -o-transition: all 0.3s ease 0s;
-   transition: all 0.3s ease 0s;  
+   transition: all 0.3s ease 0s;
 }
 .comments_form .form-group{
   position: relative;
@@ -4304,7 +4303,7 @@ tr.no_boder {
     color: #dba622;
 }
 .check_box_anchr {
-    color: ##002398 !important;
+    color: #002398 !important;
 }
 .dont_have_account p{
   font-size:16px;
@@ -4365,9 +4364,9 @@ tr.no_boder {
     height: 30px;
     line-height: 30px;
     background: #dba622;
-    -webkit-border-radius: 100px; 
-  -moz-border-radius: 100px; 
-   border-radius: 100px; 
+    -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+   border-radius: 100px;
     color: #fff;
     opacity: 1 !important;
 }
@@ -4461,9 +4460,9 @@ tr.no_boder {
     margin-bottom: 25px;
     text-transform: capitalize;
     line-height: 50px;
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
-   border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;
     border: 1px solid #e2e2e2;
   position:relative;
 }
@@ -4501,9 +4500,9 @@ tr.no_boder {
 }
 .investment_box_wrapper{
   padding:30px;
-  -webkit-border-radius: 10px; 
-  -moz-border-radius: 10px; 
-  border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   min-height:209px;
   margin-bottom:30px;
 }
@@ -4583,9 +4582,9 @@ tr.no_boder {
   left:31px;
     display: block;
     border: 2px solid #fff;
-   -webkit-border-radius: 50%; 
-  -moz-border-radius: 50%; 
-  border-radius: 50%; 
+   -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 .crm_profile_dropbox_wrapper .list{
   width:210px;
@@ -4802,7 +4801,7 @@ tr.no_boder {
 .crm_service_btn_dropbox_wrapper li a p{
   line-height:0;
       font-size: 16px;
-  position:relative;  
+  position:relative;
 }
 .crm_service_btn_dropbox_wrapper li a p:after{
   content:'';
@@ -5078,9 +5077,9 @@ dl.userdescc dd{
 .payment_gateway_wrapper .nice-select{
   height:50px;
   line-height:50px;
-  -webkit-border-radius: 100px; 
-  -moz-border-radius: 100px; 
-  border-radius: 100px; 
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
   width:250px;
   padding:0 25px;
   font-size:16px;
@@ -5117,32 +5116,32 @@ dl.userdescc dd{
 }
 .color_1{
   background:#bd4cec !important;
-  padding:30px !important; 
+  padding:30px !important;
     text-align: left !important;
 }
 .color_2{
   background:#eb6c40 !important;
-  padding:30px !important; 
+  padding:30px !important;
     text-align: left !important;
 }
 .color_3{
   background:#19ccb1 !important;
-  padding:30px !important; 
+  padding:30px !important;
     text-align: left !important;
 }
 .color_4{
   background:#5c4ee5 !important;
-  padding:30px !important; 
+  padding:30px !important;
     text-align: left !important;
 }
 .color_5{
   background:#e8bb0a !important;
-  padding:30px !important; 
+  padding:30px !important;
     text-align: left !important;
 }
 .color_6{
   background:#64bc36 !important;
-  padding:30px !important; 
+  padding:30px !important;
     text-align: left !important;
 }
 .invest_table{
@@ -5197,9 +5196,9 @@ dl.userdescc dd{
   padding:0;
   border:0;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 0; 
-  -moz-border-radius: 0; 
-  border-radius:0; 
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius:0;
 }
 .crm_customer_table_main_wrapper .dropdown-item{
   padding-top:10px;
@@ -5263,9 +5262,9 @@ dl.userdescc dd{
   background:#fff;
   padding-left:30px;
   z-index:1;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   position:relative;
 }
 .crm_ct_social_wrapper{
@@ -5343,9 +5342,9 @@ dl.userdescc dd{
   padding-left:20px;
  background:#fff;
  border:1px solid #e2e2e2;
--webkit-border-radius: 100px; 
-  -moz-border-radius: 100px; 
-  border-radius: 100px; 
+-webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
 }
 .crm_ct_page_nav_wrapper ul{
   float:right;
@@ -5478,9 +5477,9 @@ dl.userdescc dd{
   padding:30px;
   padding-left:35px;
   background:#222222;
-  -webkit-border-radius: 10px; 
-  -moz-border-radius: 10px; 
-  border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   margin-bottom:150px;
   overflow: hidden;
 }
@@ -5521,9 +5520,9 @@ dl.userdescc dd{
   font-size:16px;
   color:#fff;
   line-height:40px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-weight:600;
   text-transform:capitalize;
   z-index: 1;
@@ -5609,9 +5608,9 @@ dl.userdescc dd{
     height: 30px;
     line-height: 30px;
     background: #dba622;
-    -webkit-border-radius: 100px; 
-  -moz-border-radius: 100px; 
-   border-radius: 100px; 
+    -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+   border-radius: 100px;
     color: #fff;
     opacity: 1 !important;
 }
@@ -5693,7 +5692,7 @@ dl.userdescc dd{
   margin-bottom:22px;
 }
 .job_field input[type="checkbox"] {
-  display: none; 
+  display: none;
 }
 .job_field label {
   cursor: pointer;
@@ -5716,9 +5715,9 @@ dl.userdescc dd{
   padding: 0;
   vertical-align: top;
   width: 16px;
-  -webkit-border-radius: 0; 
-  -moz-border-radius: 0; 
-   border-radius: 0; 
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+   border-radius: 0;
 }
 .job_field input[type="checkbox"]:checked + label:before {
   border: 0;
@@ -5737,7 +5736,7 @@ dl.userdescc dd{
     margin-left: 26px;
 }
 .job_field input[type="checkbox"] {
-  display: none;  
+  display: none;
 }
 /***------ change password wrapper css -------****/
 .change_password_wrapper {
@@ -5787,9 +5786,9 @@ dl.userdescc dd{
   height:60px;
   line-height:55px;
   background:#111;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   font-size:24px;
   position:absolute;
   top:-40px;
@@ -5849,9 +5848,9 @@ dl.userdescc dd{
   text-align:center;
   display:inline-block;
   margin-top:8px;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -5869,9 +5868,9 @@ dl.userdescc dd{
   line-height:27px;
     border: 2px solid #bd4cec;
     margin: 0px auto;
-   -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-  border-radius: 50px; 
+   -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -6097,7 +6096,7 @@ dl.userdescc dd{
   color: #ffffff;
 }
 .width_50 .dropify-wrapper .dropify-clear{
-  top:-7px; 
+  top:-7px;
   right:47px;
 }
 .post_photo{
@@ -6125,9 +6124,9 @@ dl.userdescc dd{
   line-height:40px;
   background: #dba622;
     color: #111;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-   border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+   border-radius: 50px;
   border:0;
   text-align:center;
   text-transform:capitalize;
@@ -6155,9 +6154,9 @@ dl.userdescc dd{
   border-bottom:0;
   background:#222222;
   color: #ffffff !important;
-  -webkit-border-radius: 50px; 
-  -moz-border-radius: 50px; 
-   border-radius: 50px; 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+   border-radius: 50px;
    margin-bottom:20px;
 }
 .deposit_tab_wrapper .nav-tabs .nav-link:focus, .deposit_tab_wrapper .nav-tabs .nav-link:hover{
@@ -6171,9 +6170,9 @@ dl.userdescc dd{
 .deposit_tab_wrapper .nav-tabs .nav-item.show .nav-link, .deposit_tab_wrapper .nav-tabs .nav-link.active {
     background: #dba622;
     color: #ffffff !important;
-  -webkit-border-radius: 25px; 
-  -moz-border-radius: 0; 
-  border-radius: 25px; 
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 0;
+  border-radius: 25px;
   border:0;
 }
 .deposit_tab_wrapper .nav-tabs .nav-link{
@@ -6360,7 +6359,7 @@ dl.userdescc dd{
   transition: all 0.5s ease-in-out;
 }
 .c-menu > ul .c-menu__item.is-active .c-menu__item__inner {
-  
+
 }
 .c-menu > ul .c-menu__item.is-active .c-menu__item__inner i {
   color: #293b5a;
@@ -6533,9 +6532,9 @@ dl.userdescc dd{
 }
 .l-main .content-wrapper--with-bg .page-content {
   background: #fff;
--webkit-border-radius:3px; 
-  -moz-border-radius: 3px; 
-  border-radius: 3px; 
+-webkit-border-radius:3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   border: 1px solid #d0d0d0;
   padding: 25px;
 }
@@ -7016,7 +7015,7 @@ dl.userdescc dd{
   50% {
     transform: translateY(20px); }
   100% {
-    transform: translateY(0px); } 
+    transform: translateY(0px); }
 }
 .index2_about_us_wrapper{
   padding-bottom:120px;
@@ -7132,11 +7131,11 @@ dl.userdescc dd{
 }
 .index2_service_box {
   border-radius:10px;
-  border: none; 
+  border: none;
 }
 .index2_service_box:hover {
     border: 1px solid #f6c60d;
-  box-shadow: 0px 3px 15px 0 rgba(246, 198, 13, 0.13); 
+  box-shadow: 0px 3px 15px 0 rgba(246, 198, 13, 0.13);
 }
 .investment_index_icon{
   float:left; width:100%;
@@ -7652,7 +7651,7 @@ p.timer {
 .index3_about_img_wrapper{
   position:absolute;
   right:-134px;
-  width:100%; 
+  width:100%;
   top:-94px;
 }
 .index3_about_us{
@@ -7941,7 +7940,7 @@ p.timer {
   color:#dba622;
 }
 .investment_box_wrapper:hover{
-  border: 1px solid #dba622; 
+  border: 1px solid #dba622;
    -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -7976,7 +7975,7 @@ p.timer {
   background:#dba622;
   border-color: #dba622;
   color:#fff;
-} 
+}
 
 .investment_box_wrapper:hover .line_shape:after {
     background-color: #dba622;
@@ -8016,4 +8015,3 @@ p.timer {
 .flaticon-envelope:before {
   color: #fff !important;
 }
-.green_btn_plans

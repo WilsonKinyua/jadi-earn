@@ -1,7 +1,7 @@
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 header {
@@ -437,7 +437,7 @@ header {
   background-position: center center;
   background-size: 40px 40px;
 }
-.cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-1::before {
+/* .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-1::before {
   background-image: url("../img/nucleo-icon-1.html");
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-2::before {
@@ -472,7 +472,7 @@ header {
 }
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-12::before {
   background-image: url("../img/nucleo-icon-12.html");
-}
+} */
 @media only screen and (min-width: 1024px) {
   .cd-dropdown-content {
     /* reset mobile style */
