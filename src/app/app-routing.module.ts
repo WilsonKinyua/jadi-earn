@@ -5,6 +5,7 @@ import { DashboardComponent } from './components/dashboard/dashboard/dashboard.c
 import { ReferralsComponent } from './components/dashboard/referrals/referrals.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { LoginComponent } from './components/login/login.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { RegisterComponent } from './components/register/register.component';
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -13,9 +14,9 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'referrals', component: ReferralsComponent },
   { path: 'activate-account', component: ActivateAccountComponent },
-  { path: '**', redirectTo: '' },
-];
+  { path: '**',  component: PageNotFoundComponent },
 
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],

@@ -14,6 +14,7 @@ import { SidebarComponent } from './components/dashboard/sidebar/sidebar.compone
 import { FooterDashboardComponent } from './components/dashboard/footer-dashboard/footer-dashboard.component';
 import { ReferralsComponent } from './components/dashboard/referrals/referrals.component';
 import { ActivateAccountComponent } from './components/dashboard/activate-account/activate-account.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ActivateAccountComponent } from './components/dashboard/activate-accoun
     FooterDashboardComponent,
     ReferralsComponent,
     ActivateAccountComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
