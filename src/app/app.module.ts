@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +17,7 @@ import { FooterDashboardComponent } from './components/dashboard/footer-dashboar
 import { ReferralsComponent } from './components/dashboard/referrals/referrals.component';
 import { ActivateAccountComponent } from './components/dashboard/activate-account/activate-account.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     ActivateAccountComponent,
     PageNotFoundComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, ToastrModule],
   providers: [],
   bootstrap: [AppComponent],
 })
