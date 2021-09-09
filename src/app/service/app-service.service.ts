@@ -20,11 +20,13 @@ const httpOptions = {
 @Injectable({
   providedIn: 'root'
 })
-export class AppServiceService {
+export class AppService {
 
   authUser!: IUser ;
 
-  constructor(private http: HttpClient, private toastr: ToastrService) { }
+  constructor(private http: HttpClient, private toastr: ToastrService) {
+
+  }
 
 
    /**
@@ -91,7 +93,8 @@ export class AppServiceService {
   }
 
 
-  public showToastMessage(alertType: AppEnums, alertTitle: string, alertMessage: string) {
+  public showToastMessage(alertType: AppEnums, alertTitle:
+      string, alertMessage: string) {
     switch (alertType) {
       case AppEnums.ToastTypeSuccess:
         return this.toastr.success(alertMessage, alertTitle);
@@ -105,9 +108,7 @@ export class AppServiceService {
       case AppEnums.ToastTypeError:
         return this.toastr.error(alertMessage, alertTitle);
         break;
-      default:
-        break;
     }
   }
-  
+
 }
