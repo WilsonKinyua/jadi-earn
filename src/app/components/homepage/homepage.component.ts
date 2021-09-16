@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AppService } from 'src/app/service/app-service.service';
 
 @Component({
   selector: 'app-homepage',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router, private service: AppService) {
+    if (this.service.getAuthUser() != null) {
+        this.router.navigate(["/dashboard"]);
+    }
+
+  }
 
   ngOnInit(): void {
   }

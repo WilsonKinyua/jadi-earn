@@ -72,8 +72,8 @@
     <div class="top_header_right_wrapper dashboard_right_Wrapper">
 
       <div class="crm_profile_dropbox_wrapper">
-        <div class="nice-select" tabindex="0"> <span class="current"><img src="assets/images/avatar.png" alt="img">
-            hi, jenny ! <span class="hidden_xs_content"></span></span>
+        <div class="nice-select" tabindex="0"> <span class="current"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPq7DHDBks5lbPDJBbSu-rITF_hTCsctcz8w&usqp=CAU" alt="img">
+            hi, {{user?.username}} ! <span class="hidden_xs_content"></span></span>
           <ul class="list">
 
             <li><a href="#"><i class="flaticon-profile"></i> Profile</a>
@@ -92,7 +92,7 @@
             </li>
             <li><a href="#"><i class="flaticon-padlock"></i> Lock Screen</a>
             </li>
-            <li><a href="#"><i class="flaticon-turn-off"></i> Logout</a>
+            <li><a (click) = "logout()"><i class="flaticon-turn-off"></i> Logout</a>
             </li>
           </ul>
         </div>

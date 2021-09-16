@@ -25,24 +25,27 @@ export class AppService {
   authUser!: IUser ;
 
   constructor(private http: HttpClient, private toastr: ToastrService) {
-
+    this.setAuthUser(this.getSessionUser());
   }
-
 
    /**
    * Get bearer token
    */
-    public getBearerToken(): string {
-      let idToken = null;
+  public getBearerToken(): string {
+    let idToken = null;
 
-      if (this.getAuthUser()) {
-        idToken = this.getAuthUser().token;
-      } else {
-        idToken = this.getSessionUser().token;
-      }
-
-      return idToken;
+    if (this.getAuthUser()) {
+      idToken = this.getAuthUser().token;
+    } else {
+      idToken = this.getSessionUser().token;
     }
+
+    return idToken;
+  }
+
+  logout() {
+    sessionStorage.removeItem('user');
+  }
 
   setAuthUser(authUser: IUser) {
     this.authUser = authUser;
@@ -74,6 +77,14 @@ export class AppService {
         this.getSessionUser().token
       );
     }
+    return this.http.post<ApiResponse>(fullUrl, data, httpOptions);
+  }
+
+  makeCreateUserRequest(fullUrl: string, data: any): Observable<ApiResponse> {
+    return this.http.post<ApiResponse>(fullUrl, data, httpOptions);
+  }
+
+  makeLoginRequest(fullUrl: string, data: any): Observable<ApiResponse> {
     return this.http.post<ApiResponse>(fullUrl, data, httpOptions);
   }
 

@@ -7,12 +7,13 @@ import { ReferralsComponent } from './components/dashboard/referrals/referrals.c
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { LoginComponent } from './components/login/login.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ReferRegisterComponent } from './components/refer-register/refer-register.component';
 import { RegisterComponent } from './components/register/register.component';
 const routes: Routes = [
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: 'home', component: HomepageComponent, canActivate: [AuthGuard]},
+  { path: '', component: HomepageComponent},
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent},
+  { path: 'refer/:uid', component: ReferRegisterComponent},
   { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard] },
   { path: 'referrals', component: ReferralsComponent, canActivate: [AuthGuard]},
   { path: 'activate-account', component: ActivateAccountComponent, canActivate: [AuthGuard]},

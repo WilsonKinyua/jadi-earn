@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -19,6 +19,20 @@ import { ReferralsComponent } from './components/dashboard/referrals/referrals.c
 import { ActivateAccountComponent } from './components/dashboard/activate-account/activate-account.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { ToastrModule } from 'ngx-toastr';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxLoadingConfig, NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
+import { ReferRegisterComponent } from './components/refer-register/refer-register.component';
+
+const ngxLoadingConfig: NgxLoadingConfig = {
+  animationType: ngxLoadingAnimationTypes.wanderingCubes,
+  // backdropBackgroundColour: 'rgba(0,0,0,0.1)',
+  backdropBackgroundColour: 'rgba(0, 0, 0, .9)',
+  backdropBorderRadius: '4px',
+  primaryColour: '#dba622',
+  secondaryColour: '#dba622',
+  tertiaryColour: '#ffffff',
+  fullScreenBackdrop: true,
+}
 
 @NgModule({
   declarations: [
@@ -35,13 +49,16 @@ import { ToastrModule } from 'ngx-toastr';
     ReferralsComponent,
     ActivateAccountComponent,
     PageNotFoundComponent,
+    ReferRegisterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule,
-    ToastrModule.forRoot({
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule, FormsModule,
+    NgxLoadingModule.forRoot(ngxLoadingConfig),
+    ReactiveFormsModule, ToastrModule.forRoot({
       positionClass :'toast-top-right',
       timeOut:3000
     })],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}

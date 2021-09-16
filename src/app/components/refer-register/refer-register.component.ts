@@ -7,11 +7,11 @@ import { AppService } from 'src/app/service/app-service.service';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css']
+  selector: 'app-refer-register',
+  templateUrl: './refer-register.component.html',
+  styleUrls: ['./refer-register.component.css']
 })
-export class RegisterComponent implements OnInit {
+export class ReferRegisterComponent implements OnInit {
 
   regForm! : FormGroup;
   authuser?: IUser;
@@ -41,7 +41,7 @@ export class RegisterComponent implements OnInit {
   submitRegistrationData() {
     this.loading = true;
     if (this.regForm.get("password")?.value === this.regForm.get("validatePassword")?.value) {
-      this.appService.makeCreateUserRequest(`${environment.REGISTRATION_URL}`, {
+      this.appService.makeCreateUserRequest(`${environment.REFERRAL_REGISTRATION_URL}` + this.router.url.split("/")[2], {
         username:this.regForm.get("userName")?.value,
         firstName:this.regForm.get("firstName")?.value,
         lastName:this.regForm.get("lastName")?.value,
@@ -66,6 +66,10 @@ export class RegisterComponent implements OnInit {
               "LOGGING IN", data.payload);
         }
       })
+    } else {
+      this.loading = false
+      this.appService.showToastMessage(AppEnums.ToastTypeError,
+        "LOGGING IN", "Password and Validate Passsowrd Should Match");
     }
   }
 
